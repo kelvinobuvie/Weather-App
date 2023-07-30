@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Today's weather</title>
 </head>
 <body>
@@ -11,11 +12,11 @@
         <div class="search-box">
             <i class="fa-solid fa-location-dot"></i>
             <input type="text" placeholder="Enter Your Location">
-            <button class="fa-solid fa-magnifying-glass"></button>
+            <button class="fa-solid fa-magnifying-glass"></button> 
         </div>
 
         <div class="not-found">
-            <img src="/img/404.png" alt="">
+            <img src="img/404.png" alt="">
             <p>Oops Invalid Location :/</p>
         </div>
         
@@ -25,7 +26,7 @@
             <p class="description"></p>
         </div>
 
-        <div class="weather-detials">
+        <div class="weather-details">
             <div class="humidity">
                 <i class="fa-solid fa-water"></i>
                 <div class="text">
@@ -33,19 +34,18 @@
                     <p>Humidity</p>
                 </div>
             </div>
-        </div>
-        <div class="weather-detials">
             <div class="wind">
-                <i class="fa-solid fa-water"></i>
+                <i class="fa-solid fa-wind"></i>
                 <div class="text">
                     <span></span>
                     <p>Wind Speed</p>
                 </div>
             </div>
         </div>
+        </div>
     </div>
      
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="index.js"></script>
 </body>
 </html>
